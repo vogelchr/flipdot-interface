@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -427,7 +427,10 @@
           "/Row Drivers Positive/ROW_P6",
           "/Row Drivers Positive/ROW_P7",
           "/Row Drivers Positive/ROW_P8",
-          "/Row Drivers Positive/ROW_P9"
+          "/Row Drivers Positive/ROW_P9",
+          "GND",
+          "VCC",
+          "VS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -440,7 +443,9 @@
     "meta": {
       "version": 1
     },
-    "net_colors": null
+    "net_colors": {
+      "VS": "rgb(255, 51, 223)"
+    }
   },
   "pcbnew": {
     "last_paths": {
