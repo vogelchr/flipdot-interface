@@ -390,6 +390,8 @@
         "microvia_drill": 0.254,
         "name": "FLIPDOT_PWR",
         "nets": [
+          "/J1_P42",
+          "/J1_P43",
           "/Row Drivers Negative/ROW_N0",
           "/Row Drivers Negative/ROW_N1",
           "/Row Drivers Negative/ROW_N10",
