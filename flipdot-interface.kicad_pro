@@ -70,6 +70,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -88,6 +89,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -390,6 +392,7 @@
         "microvia_drill": 0.254,
         "name": "FLIPDOT_PWR",
         "nets": [
+          "+3V3",
           "/J1_P42",
           "/J1_P43",
           "/Row Drivers Negative/ROW_N0",
@@ -443,7 +446,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": {
       "VS": "rgb(255, 51, 223)"
@@ -512,6 +515,10 @@
     [
       "65ce21de-884d-4b16-ba2e-849f52458b6d",
       "Row Drivers Negative"
+    ],
+    [
+      "50e8315d-59e3-4b25-9747-16bc45fffc51",
+      "Digital Pin Drivers"
     ]
   ],
   "text_variables": {}
